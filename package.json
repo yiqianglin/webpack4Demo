@@ -1,0 +1,55 @@
+{
+  "name": "webpack-demo",
+  "version": "0.0.1",
+  "description": "webpack4 demo with vue&eslint&babel&stylus&postcss",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.dev.js",
+    "lint-fix": "eslint src --ext .js,.vue --fix",
+    "build": "webpack --config webpack/webpack.prod.js"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "postcss",
+    "stylus",
+    "vue"
+  ],
+  "author": "babytutu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-2": "^7.0.0-beta.42",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^8.0.0-beta.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.4.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "mini-css-extract-plugin": "^0.2.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.1",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "vue-loader": "^14.2.1",
+    "vue-style-loader": "^4.0.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  }
+}

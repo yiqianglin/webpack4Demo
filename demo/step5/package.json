@@ -1,0 +1,36 @@
+{
+  "name": "step5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.dev.js",
+    "lint-fix": "eslint src --ext .js,.vue --fix",
+    "build": "webpack --config webpack/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "mini-css-extract-plugin": "^0.2.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "postcss-loader": "^2.1.1",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
